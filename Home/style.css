@@ -1,17 +1,52 @@
 body{
-    background-color: gray;
+    background-color: rgb(43, 43, 43);
 }
 div.box{
     font-size: 30px;
     text-align: center;
-    width: 250px;
+    width: 150px;
     height: 150px;
     box-shadow: black 5px 5px 30px;
+    position: absolute;
+    border-radius: 50%;
 }
 div.fb{
-    background-color: blue;
     color: white;
+}
+div.yt{
+    color: white;
+    left: 500px;
+}
+div.ig{
+    color: white;
+    left: 1000px
+}
+div.ch{
+    color: white;
+    top: 200px;
+}
+div.ed{
+    color: white;
+    top: 200px;
+    left: 1000px;
+}
+div.chess{
+    color: white;
+    top: 400px;
+}
+div.gh{
+    color: white;
+    top: 400px;
+    left: 500px;
+}
+div.ms{
+    color: white;
+    top: 400px; 
+    left: 1000px;
 }
 a{
     text-decoration: none;
+}
+img{
+    height: 81px;
 }
