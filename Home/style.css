@@ -1,3 +1,17 @@
 body{
     background-color: gray;
 }
+div.box{
+    font-size: 30px;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    box-shadow: black 5px 5px 30px;
+}
+div.fb{
+    background-color: blue;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
