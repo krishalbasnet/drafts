@@ -44,3 +44,25 @@ div.fb:hover{
 div.yt:hover{
     background-color: red;
 }
+div.ig:hover{
+    background: url("https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg");
+    background-size: cover;
+}
+div.ch:hover, div.sd:hover, div.ed:hover{
+    background-color: rgb(77, 77, 255);
+}
+div.chess:hover{
+    background-color: #097526;
+}
+div.gh:hover{
+    background-color: black;
+}
+div.ms:hover{
+    background: url("https://www.speedtest.pl/wiadomosci/wp-content/uploads/2020/10/kolorek.jpg");
+}
+img.insta{
+    height: 151px;
+    position: relative;
+    left: -33px;
+    top: -8px;
+}
