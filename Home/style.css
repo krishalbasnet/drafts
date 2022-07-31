@@ -4,54 +4,43 @@ body{
 div.box{
     font-size: 30px;
     text-align: center;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     box-shadow: black 5px 5px 30px;
     position: absolute;
     border-radius: 50%;
 }
-div.fb{
-    color: white;
+div.first{
+    left: 20px;
 }
-div.yt{
-    color: white;
-    left: 500px;
+div.second{
+    left: 175px;
 }
-div.ig{
-    color: white;
-    left: 1000px
-}
-div.ch{
-    color: white;
-    top: 200px;
-}
-div.sd{
-    color: white;
-    top: 200px;
-    left: 500px;
-}
-div.ed{
-    color: white;
-    top: 200px;
-    left: 1000px;
-}
-div.chess{
-    color: white;
-    top: 400px;
-}
-div.gh{
-    color: white;
-    top: 400px;
-    left: 500px;
-}
-div.ms{
-    color: white;
-    top: 400px; 
-    left: 1000px;
+div.third{
+    left: 325px;
 }
 a{
     text-decoration: none;
+    color: white;
 }
 img{
-    height: 81px;
+    height: 135px;
+}
+div._1st{
+    top:15px;
+}
+div._2nd{
+    top:170px;
+}
+div._3rd{
+    top:325px;
+}
+div._4th{
+    top:480px;
+}
+div.fb:hover{
+    background-color: blue;
+}
+div.yt:hover{
+    background-color: red;
 }
