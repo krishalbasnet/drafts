@@ -53,6 +53,7 @@ div.ch:hover, div.sd:hover, div.ed:hover{
 }
 div.chess:hover{
     background-color: #097526;
+    box-shadow: #00ff44 0px 0px 30px 10px;
 }
 div.gh:hover{
     background-color: black;
@@ -65,4 +66,22 @@ img.insta{
     position: relative;
     left: -33px;
     top: -8px;
+}
+img.clmphk{
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    height: 139px;
+}
+div.container{
+  position: absolute;
+  left: 500px;
+  height: 100px;
+  width: 500px;
+}
+input.ggg{
+  height: 50px;
+  width: 435px;
+  border-radius: 25px;
+  border: 1px solid black;
 }
