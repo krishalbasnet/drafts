@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(43, 43, 43);
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/003/053/397/original/digital-hexagon-abstract-background-free-video.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 div.box{
     font-size: 30px;
@@ -8,7 +10,20 @@ div.box{
     height: 135px;
     box-shadow: black 5px 5px 30px;
     position: absolute;
+    background-color: rgb(49, 49, 49);
     border-radius: 50%;
+}
+div.inwh{
+    
+    border-radius: 50%;
+    height: 107px;
+    width: 96px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+div.inwh:hover{
+    background-color: white;
 }
 div.first{
     left: 20px;
@@ -48,8 +63,11 @@ div.ig:hover{
     background: url("https://static.vecteezy.com/system/resources/previews/002/486/289/original/gradient-background-instagram-free-vector.jpg");
     background-size: cover;
 }
-div.ch:hover, div.sd:hover, div.ed:hover{
+div.sd:hover, div.ed:hover{
     background-color: rgb(77, 77, 255);
+}
+div.ch:hover{
+    background-color: black;
 }
 div.chess:hover{
     background-color: #097526;
@@ -84,4 +102,9 @@ input.ggg{
   width: 435px;
   border-radius: 25px;
   border: 1px solid black;
+}
+img.fbook{
+    position: absolute;
+    left: -20px;
+    top: -20px;
 }
